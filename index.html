@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Assignment Task</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="c1">
+            <div class="title">Assignment Task</div>
+            <hr>
+            <p>The name and photo associated with your Google account will be recorded
+                when you upload files and submit this form.Your email is not part
+                of your response.
+            </p>
+            <hr>
+            <p class="star">*Indicates required question</p>
+        </div>
+
+        <form action="#" id="myForm">
+            <div class="container">
+                <span class="mcq-title">MCQ<span class="star">*</span></span>
+                <div class="mcq">
+                    <div class="ls">
+                        <input type="radio" name="mcq" id="dot-1">
+                        <label for="dot-1">
+                            <span class="mcq">Option 1</span>
+                        </label>
+                    </div>
+                    <div class="ls">
+                        <input type="radio" name="mcq" id="dot-2">
+                        <label for="dot-2">
+                            <span class="mcq">Option 2</span>
+                        </label>
+                    </div>
+                    <div class="ls">
+                        <input type="radio" name="mcq" id="dot-3">
+                        <label for="dot-3">
+                            <span class="mcq">Option 3</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="checkbox">
+                    <span class="c-title">Checkbox<span class="star">*</span></span>
+                    <div class="cb">
+                        <input type="checkbox" name="checkbox" id="c-1">
+                        <label for="c-1">
+                            <span class="checkbox">Option 1</span>
+                        </label>
+                    </div>
+                    <div class="cb">
+                        <input type="checkbox" name="checkbox" id="c-2">
+                        <label for="c-2">
+                            <span class="checkbox">Option 2</span>
+                        </label>
+                    </div>
+                    <div class="cb">
+                        <input type="checkbox" name="checkbox" id="c-3">
+                        <label for="c-3">
+                            <span class="checkbox">Option 3</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <span class="short-title">Short Answer<span class="star">*</span></span>
+                <div class="user-details">
+                    <div class="input-box">
+                        <input type="text" placeholder="Your answer" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <span class="paragraph-title">ParaGraph<span class="star">*</span></span>
+                <div class="user-details-paragraph user-details">
+                    <div class="input-box">
+                        <input type="text" placeholder="Your answer" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <span class="dropdown-title">Drop down<span class="star">*</span></span>
+                <div class="dropdown">
+                    <select id="dropdown-select">
+                        <option value="" disabled selected>Choose</option>
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="container">
+                <span class="file-title">File Upload<span class="star">*</span></span>
+                <div class="file-upload-container">
+                    <label for="file-input" class="file-upload-label">
+                        <span class="file-icon"><i class="fa fa-upload"></i></span> Add File
+                    </label>
+                    <input type="file" id="file-input" class="file-input">
+                </div>
+            </div>
+
+            <div class="container">
+                <span class="ls-title">Linear Scale<span class="star">*</span></span>
+                <div class="label-div">
+                    <label for="one" class="ls_label">1</label>
+                    <label for="two" class="ls_label">2</label>
+                    <label for="three" class="ls_label">3</label>
+                    <label for="four" class="ls_label">4</label>
+                    <label for="five" class="ls_label">5</label>
+                </div>
+                <span class="gread">Worst</span>
+                <input type="radio" id="one" name="one" value="one" class="ls-input ls-first">
+                <input type="radio" id="two" name="two" value="two" class="ls-input">
+                <input type="radio" id="three" name="three" value="three" class="ls-input">
+                <input type="radio" id="four" name="four" value="four" class="ls-input">
+                <input type="radio" id="five" name="five" value="five" class="ls-input ls-last">
+                <span class="gread best">Best</span>
+            </div>
+            <div class="container">
+                <span class="ls-title">Multi choice Grid<span class="star">*</span></span>
+                <table>
+                    <tr class="th">
+                        <td></td>
+                        <td>Column<br> 1</td>
+                        <td>Column<br>2</td>
+                        <td>Column<br>3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                    </tr>
+                    <tr>
+                        <td>Row 2</td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                    </tr>
+                    <tr>
+                        <td>Row 3</td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="container">
+                <span class="ls-title">Tick box Grid<span class="star">*</span></span>
+                <table>
+                    <tr class="th">
+                        <td></td>
+                        <td>Column<br> 1</td>
+                        <td>Column<br>2</td>
+                        <td>Column<br>3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Row 2</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Row 3</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="">
+                <span class="button">
+                    <input type="submit" value="Submit">
+                </span>
+                <span class="clearform" onclick="refresh()">
+                    Clear form
+                </span>
+            </div>
+        </form>
+    </div>
+    <script>
+        function refresh() {
+            document.getElementById("myForm").reset();
+        }
+    </script>
+</body>
+
+</html>
